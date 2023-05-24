@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Anime en Ecuador</title>
+  <style>
+    /* Estilos CSS para la distribución de la información y efectos de movimiento */
+    body {
+      background-color: #e0f2f1;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    header {
+      background-color: #009688;
+      padding: 20px;
+      text-align: center;
+      color: #ffffff;
+    }
+    
+    h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+    
+    main {
+      display: flex;
+      flex: 1;
+      justify-content: space-between;
+      margin: 20px;
+    }
+    
+    section {
+      background-color: #ffffff;
+      padding: 20px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      flex: 1;
+      margin-right: 20px;
+      animation: moveLeft 2s infinite alternate;
+    }
+    
+    @keyframes moveLeft {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(-10px);
+      }
+    }
+    
+    aside {
+      background-color: #e0f7fa;
+      padding: 20px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      flex: 1;
+      animation: moveRight 2s infinite alternate;
+    }
+    
+    @keyframes moveRight {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(10px);
+      }
+    }
+    
+    h2 {
+      font-size: 24px;
+      margin-top: 0;
+    }
+    
+    p {
+      line-height: 1.5;
+    }
+    
+    ul {
+      padding-left: 20px;
+    }
+    
+    li {
+      margin-bottom: 10px;
+    }
+    
+    .image {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <h1>Anime en Ecuador</h1>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+    <!-- Sección izquierda -->
+    <section>
+      <h2>Información General</h2>
+      <p>Aquí puedes encontrar información sobre el anime en Ecuador.</p>
+      <p>Ecuador cuenta con una creciente comunidad de fanáticos del anime, quienes disfrutan de diferentes eventos y actividades relacionadas con esta cultura. A continuación, te presentamos algunos de los eventos más destacados:</p>
+      <ul>
+        <li>Convención Anime Ecuador</li>
+        <li>ExpoManga</li>
+        <li>Anime Fest</li>
+      </ul>
+    </section>
+
+    <!-- Cuadro adicional 1 -->
+    <section>
+      <h2>Categorías de Anime</h2>
+      <ul>
+        <li>Shonen</li>
+        <li>Shojo</li>
+        <li>Seinen</li>
+        <li>Josei</li>
+        <li>Mecha</li>
+      </ul>
+    </section>
+
+    <!-- Cuadro adicional 2 -->
+    <aside>
+      <h2>Anime Destacado</h2>
+      <p>One Piece</p>
+      <p>Naruto</p>
+      <p>Attack on Titan</p>
+      <p>My Hero Academia</p>
+      <p>Demon Slayer</p>
+    </aside>
+
+    <!-- Cuadro adicional 3 -->
+    <section>
+      <h2>Personajes Populares</h2>
+      <ul>
+        <li>Monkey D. Luffy</li>
+        <li>Naruto Uzumaki</li>
+        <li>Eren Yeager</li>
+        <li>Izuku Midoriya</li>
+        <li>Tanjiro Kamado</li>
+      </ul>
+    </section>
+
+    <!-- Cuadro adicional 4 -->
+    <aside>
+      <h2>Manga Recomendado</h2>
+      <p>Death Note</p>
+      <p>Fullmetal Alchemist</p>
+      <p>Dragon Ball</p>
+      <p>Black Butler</p>
+      <p>Haikyu!!</p>
+    </aside>
+  </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Recomendaciones de Animes</title>
+  <style>
+    /* Estilos CSS para la página de recomendaciones */
+    body {
+      background-color: #e0f2f1;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #009688;
+      padding: 20px;
+      text-align: center;
+      color: #ffffff;
+    }
+    
+    h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    h2 {
+      font-size: 24px;
+      margin-top: 0;
+    }
+    
+    p {
+      line-height: 1.5;
+    }
+    
+    .anime {
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      background-color: #ffffff;
+    }
+    
+    .anime img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    
+    .anime-title {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    
+    .anime-description {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <h1>Recomendaciones de Animes</h1>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+    <div class="anime">
+      <img src="op.png" alt="Attack on titan">
+      <h2 class="anime-title">Attack on titan</h2>
+      <p class="anime-description">Attack on Titan (進撃の巨人 Shingeki no Kyojin) es un manga serializado escrito e ilustrado por Hajime Isayama. Cuenta la historia de la humanidad en una época con estética germana del siglo 19, luchando por sobrevivir durante los ataques de unos seres humanoides gigantes llamados titanes.</p>
+    </div>
+
+    <div class="anime">
+      <img src="nar.jpg" alt="Naruto">
+      <h2 class="anime-title">Naruto</h2>
+      <p class="anime-description">Naruto es una popular serie de manga y anime creada por Masashi Kishimoto. La historia sigue las aventuras de Naruto Uzumaki, un joven ninja adolescente que busca convertirse en el Hokage, el líder y protector de su aldea, llamada Konoha.</p>
+    </div>
+
+    <div class="anime">
+      <img src="he.jpg" alt="IMy Hero Academia">
+      <h2 class="anime-title">My Hero Academia</h2>
+      <p class="anime-description">"My Hero Academia" (también conocido como "Boku no Hero Academia") es una serie de manga y anime creada por Kohei Horikoshi. La historia se desarrolla en un mundo donde la mayoría de las personas poseen superpoderes llamados "Quirks" y sigue las aventuras de Izuku Midoriya, un joven que sueña con convertirse en un héroe a pesar de no tener inicialmente un Quirk.</p>
+    </div>
+  </main>
+ </main>
+
+  <!-- Reproductor de audio -->
+  <audio src="lol.mp3" controls autoplay loop>
+    Tu navegador no soporta la etiqueta de audio.
+  </audio>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Recomendaciones de Animes</title>
+  <style>
+    /* Estilos CSS para la página de recomendaciones */
+    body {
+      background-color: #e0f2f1;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #009688;
+      padding: 20px;
+      text-align: center;
+      color: #ffffff;
+    }
+    
+    h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    h2 {
+      font-size: 24px;
+      margin-top: 0;
+    }
+    
+    p {
+      line-height: 1.5;
+    }
+    
+    .anime {
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      background-color: #ffffff;
+      animation: fadeInUp 1s ease-out;
+    }
+    
+    .anime img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    
+    .anime-title {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    
+    .anime-description {
+      margin-top: 10px;
+    }
+    
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Recomendaciones de Animes</title>
+  <style>
+    /* Estilos CSS para la página de recomendaciones */
+    body {
+      background-color: #e0f2f1;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #009688;
+      padding: 20px;
+      text-align: center;
+      color: #ffffff;
+    }
+    
+    h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    h2 {
+      font-size: 24px;
+      margin-top: 0;
+    }
+    
+    p {
+      line-height: 1.5;
+    }
+    
+    .anime {
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      background-color: #ffffff;
+      transition: transform 0.3s ease;
+    }
+    
+    .anime img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    
+    .anime-title {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    
+    .anime-description {
+      margin-top: 10px;
+    }
+    
+    .anime:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+</html>
